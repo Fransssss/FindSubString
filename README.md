@@ -3,9 +3,9 @@ Validate US Phone Number
 
 
 Objectives:
-- create and call function
 - use find.()
 - use substr()
+- create and call function
 - user cctype library
 
 Example output
