@@ -17,14 +17,14 @@ bool regionState(const string& userAreaCode)
 
 
     // Northeast USA
-    string connecticut[] = {"203", "860", "475", "959"};                     // list of number in each states
+    string connecticut[] = {"203", "860", "475", "959"};                                     // list of number in each state
     for(size_t i = 0; i < sizeof (connecticut)/ sizeof (connecticut[0]); ++i)
     {
         if(connecticut[i] == userAreaCode)                                                   // if match then give the information
         {
             cout << "Region: Northeast US" << endl;
             cout << "State Connecticut " << endl;
-            numberExist = true;                                                              // number exist
+            numberExist = true;                                                              // indicate number exist
             return true;
         }
     }
@@ -602,7 +602,7 @@ bool regionState(const string& userAreaCode)
         return true;
     }
 
-    if(!numberExist)                                                                   // number user input is not valid phone number
+    if(!numberExist)                                                                   // number that user input is not valid phone number
     {
         cout << "\n[ Invalid phone number ]" << endl;
         return false;
