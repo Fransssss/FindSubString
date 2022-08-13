@@ -1,5 +1,5 @@
 # FindSubString
-#Validate US Phone Number
+# Validate US Phone Number
 
 User input an US phone number then the program would validate the form and indicate which state the number is from
 
