@@ -10,7 +10,7 @@ using std::string;
 
 bool validNumber(const string& userPhoneNumber)
 {
-    string defaultFormat = "xxx-xxx-xxxx";
+    string defaultFormat = "xxx-xxx-xxxx";                         // default format
 
     if(userPhoneNumber.size() != defaultFormat.size())
     {
@@ -21,7 +21,7 @@ bool validNumber(const string& userPhoneNumber)
     {
         if(defaultFormat.at(i) == 'x')
         {
-            if(!isdigit(userPhoneNumber.at(i)))               // if not digit then false
+            if(!isdigit(userPhoneNumber.at(i)))                      // if not digit then false
             {
                 return false;
             }
