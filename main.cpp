@@ -6,7 +6,7 @@
 #include "cctype"
 
 // ========================
-// user input an US phone number then the program would validate the form and indicate which state the number is from
+// user input an US phone number then the program would validate the form and indicate which state the number is from and break down if exchange code and line number
 // ========================
 
 using std::cout;
