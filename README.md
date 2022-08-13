@@ -1,7 +1,7 @@
 # FindSubString
 # Validate US Phone Number
 
-User input an US phone number then the program would validate the form and indicate which state the number is from
+User input an US phone number then the program would validate the form and indicate which state the number is from and break down if exchange code and line number
 
 
 Objectives:
